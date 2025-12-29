@@ -1,0 +1,39 @@
+name: time_management_app
+description: A time management app with AI-powered task verification
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  intl: ^0.19.0
+  shared_preferences: ^2.2.2
+  http: ^1.2.0
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+
+  # App Icon Assets
+  assets:
+    - assets/icon/
+
+# Launcher Icon Configuration
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/app_icon.png"
+  adaptive_icon_background: "#673AB7"  # Deep purple to match your app theme
+  adaptive_icon_foreground: "assets/icon/app_icon.png"
