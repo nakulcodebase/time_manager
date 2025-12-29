@@ -3,7 +3,7 @@ import 'package:http/http.dart' as http;
 
 class GeminiService {
   // Get your API key from: https://makersuite.google.com/app/apikey
-  static const String apiKey = 'AIzaSyCQD6dbQjRN4mbPqOxhQ3XXhWzscl401Cg';
+  static const String apiKey = 'ENTER YOUR API KEY';//enter  ur genereated api key  of google flsah 2.5
   static const String apiUrl =
       'https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent';
 
@@ -42,7 +42,7 @@ Example: PASS|You have demonstrated a good understanding of the basic concepts.
             }
           ],
           'generationConfig': {
-            'temperature': 0.4,
+            'temperature': 0.6,
             'topK': 32,
             'topP': 1,
             'maxOutputTokens': 200,
